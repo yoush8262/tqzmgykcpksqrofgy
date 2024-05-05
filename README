@@ -1,0 +1,4 @@
+gst-launch -v filesrc location=01\ New\ Born.flac ! decodebin ! audioconvert ! lame vbr=4 vbr-quality=9 vbr-mean-bitrate=192 ! id3v2mux ! filesink location=foo_vbr.mp3
+gst-launch -v filesrc location=01\ New\ Born.flac ! decodebin ! audioconvert ! lame bitrate=192 ! id3v2mux ! filesink location=foo_constant.mp3
+
+fusermount -u /home/leon/Workspaces/gstreamerfs/mount && ./src/gstreamerfs.py /home/leon/Workspaces/gstreamerfs/mount/ -o root=/home/leon/Music
