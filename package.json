@@ -1,0 +1,19 @@
+{
+  "name": "zephyrzeppelin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b99b199/zephyrzeppelin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "beach-tea": "^1.1.4",
+    "jpamelddd": "^1.1.1"
+  }
+}
